@@ -13,7 +13,7 @@ int main(){
     cin >> a5;
     cin >> a6;
     cin >> a7;
-    cin >> a9;
+    cin >> a8;
     cin >> a9;
     cin >> a10;
 
@@ -22,7 +22,7 @@ int main(){
     
     merge_sort(data,0,9);
 
-    for(int i=0; i<9; i++){
+    for(int i=0; i<10; i++){
     cout << data[i];
     cout << " ";}
     
